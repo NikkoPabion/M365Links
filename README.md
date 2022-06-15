@@ -19,7 +19,7 @@
     <a href="https://github.com/npab19/M365Links"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/npab19/M365Links">View Demo</a>
+    <a href="https://m365links">View Site</a>
     ·
     <a href="https://github.com/npab19/M365Links/issues">Report Bug</a>
     ·
