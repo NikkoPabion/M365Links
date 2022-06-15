@@ -1,0 +1,38 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: DownloadGitHubReleasehomer@0
+  inputs:
+    connection: 'npab19'
+    userRepository: 'bastienwirtz/homer'
+    defaultVersionType: 'latest'
+    downloadPath: '$(System.ArtifactsDirectory)'
+    
+- task: ExtractFiles@1
+  inputs:
+    archiveFilePatterns: '$(System.ArtifactsDirectory)/homer.zip'
+    destinationFolder: '$(System.ArtifactsDirectory)/homer'
+    cleanDestinationFolder: true
+    overwriteExistingFiles: true
+
+- script: cp -r /home/vsts/work/1/s/assets/* $(System.ArtifactsDirectory)/homer/assets
+  displayName: 'MergeGgithubRepoWithHomer'
+
+- task: AzureStaticWebApp@0
+  inputs:
+    skip_app_build: true
+    skip_api_build: true
+    is_static_export: false
+    api_build_command: 
+    azure_static_web_apps_api_token: $(WEB_APP_API_TOKEN)
+    app_location: 'homer'
+    workingDirectory: $(System.ArtifactsDirectory)
