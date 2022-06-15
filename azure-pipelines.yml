@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: DownloadGitHubReleasehomer@0
+- task: DownloadGitHubRelease@0
   inputs:
     connection: 'npab19'
     userRepository: 'bastienwirtz/homer'
