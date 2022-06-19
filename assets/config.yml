@@ -78,6 +78,17 @@ services:
         subtitle: "View and launch cloud-based applications"
         url: "https://aka.ms/mysecurityinfo"
         target: "_blank"
+      - name: "Self-Service Password Reset"
+        logo: "assets/icons/Microsoft/SSRP/SSRP2.png"
+        subtitle: "AzureAD Self-Service Password Reset"
+        url: "https://aka.ms/mysecurityinfo"
+        target: "_blank"
+      - name: "Microsoft 365 Security settings (MFA)"
+        logo: "assets/icons/Microsoft/MFA/mfa.webp"
+        subtitle: "Change MFA and other security options"
+        url: "https://aka.ms/mysecurityinfo"
+        target: "_blank"
+              
 
   - name: "Apps"
     icon: "fas fa-cloud"
