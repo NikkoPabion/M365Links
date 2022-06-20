@@ -98,3 +98,8 @@ services:
         subtitle: "Outlook, for webmail on the go"
         url: "https://outlook.office.com"
         target: "_blank"
+      - name: "Calendar"
+        logo: "assets/icons/Office/Outlook/calendar.webp"
+        subtitle: "Outlook calendar"
+        url: "https://outlook.office.com/calendar/"
+        target: "_blank"
