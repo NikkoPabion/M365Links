@@ -19,6 +19,11 @@ steps:
     cleanDestinationFolder: true
     overwriteExistingFiles: true
 
+- task: DeleteFiles@1
+  inputs:
+    SourceFolder: $(System.ArtifactsDirectory)/homer
+    Contents: 'robot.txt'
+
 - script: cp -r /home/vsts/work/1/s/assets/* $(System.ArtifactsDirectory)/homer/assets
   displayName: 'MergeGgithubRepoWithHomer'
 
