@@ -19,8 +19,16 @@ steps:
     cleanDestinationFolder: true
     overwriteExistingFiles: true
 
+- task: DeleteFiles@1
+  inputs:
+    SourceFolder: $(System.ArtifactsDirectory)/homer
+    Contents: 'robot.txt'
+  
+- script: sed -i 's/noindex/all/g' $(System.ArtifactsDirectory)/homer/index.html
+  displayName: 'Change robot meta tag to All'
+
 - script: cp -r /home/vsts/work/1/s/assets/* $(System.ArtifactsDirectory)/homer/assets
-  displayName: 'MergeGgithubRepoWithHomer'
+  displayName: 'Merge Github Repo With Homer'
 
 - task: AzureStaticWebApp@0
   inputs:
