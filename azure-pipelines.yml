@@ -24,7 +24,7 @@ steps:
     SourceFolder: $(System.ArtifactsDirectory)/homer
     Contents: 'robot.txt'
   
-- script: sed -i 's/noindex/all/g' /home/vsts/work/1/s/index.html
+- script: sed -i 's/noindex/all/g' $(System.ArtifactsDirectory)/homer/index.html
   displayName: 'Change robot meta tag to All'
 
 - script: cp -r /home/vsts/work/1/s/assets/* $(System.ArtifactsDirectory)/homer/assets
