@@ -23,9 +23,12 @@ steps:
   inputs:
     SourceFolder: $(System.ArtifactsDirectory)/homer
     Contents: 'robot.txt'
+  
+- script: sed -i 's/noindex/all/g' /home/vsts/work/1/s/index.html
+  displayName: 'Change robot meta tag to All'
 
 - script: cp -r /home/vsts/work/1/s/assets/* $(System.ArtifactsDirectory)/homer/assets
-  displayName: 'MergeGgithubRepoWithHomer'
+  displayName: 'Merge Github Repo With Homer'
 
 - task: AzureStaticWebApp@0
   inputs:
