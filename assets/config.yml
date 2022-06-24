@@ -118,3 +118,8 @@ services:
         subtitle: "Microsoft Excel Online"
         url: "https://www.office.com/launch/excel?auth=2"
         target: "_blank"
+      - name: "Microsoft Teams"
+        logo: "assets/icons/Office/Teams/Positive/teams.webp"
+        subtitle: "Working together is easier with Microsoft Teams"
+        url: "http://teams.microsoft.com/"
+        target: "_blank"
