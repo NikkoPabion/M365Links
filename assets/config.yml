@@ -113,3 +113,8 @@ services:
         subtitle: "Use Delve to manage your Microsoft 365 profile"
         url: "https://nam.delve.office.com/"
         target: "_blank"
+      - name: "Excel"
+        logo: "assets/icons/Office/Excel/excel.webp"
+        subtitle: "Microsoft Excel Online"
+        url: "https://www.office.com/launch/excel?auth=2"
+        target: "_blank"
