@@ -129,7 +129,7 @@ services:
         url: "https://www.office.com/launch/onenote"
         target: "_blank"
       - name: "Microsoft Planner"
-        logo: "assets/icons/Microsoft/Planner/planner3.png"
+        logo: "assets/icons/Microsoft/Planner/planner.png"
         subtitle: "A simple, visual way to organize teamwork"
         url: "https://tasks.office.com/"
         target: "_blank"
