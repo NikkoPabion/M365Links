@@ -133,3 +133,8 @@ services:
         subtitle: "A simple, visual way to organize teamwork"
         url: "https://tasks.office.com/"
         target: "_blank"
+      - name: "Microsoft Power Apps"
+        logo: "assets/icons/Microsoft/Powerapps/powerapps.webp"
+        subtitle: "View and launch cloud-based applications"
+        url: "https://make.powerapps.com/"
+        target: "_blank"
