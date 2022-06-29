@@ -143,3 +143,8 @@ services:
         subtitle: "Powerful workflow automation with no-code"
         url: "https://flow.microsoft.com"
         target: "_blank"
+      - name: "Microsoft Power BI"
+        logo: "assets/icons/Microsoft/Powerbi/powerbi.webp"
+        subtitle: "Create interactive, immersive dashboards and reports"
+        url: "https://app.powerbi.com/"
+        target: "_blank"
