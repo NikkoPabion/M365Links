@@ -148,3 +148,8 @@ services:
         subtitle: "Create interactive, immersive dashboards and reports"
         url: "https://app.powerbi.com/"
         target: "_blank"
+      - name: "Microsoft Powerpoint"
+        logo: "assets/icons/Office/PowerPoint/powerpoint.webp"
+        subtitle: "Create clean slideshow presentations and intricate pitch decks"
+        url: "https://www.office.com/launch/powerpoint?auth=2"
+        target: "_blank"
