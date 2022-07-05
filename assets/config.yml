@@ -153,3 +153,8 @@ services:
         subtitle: "Create clean slideshow presentations and intricate pitch decks"
         url: "https://www.office.com/launch/powerpoint?auth=2"
         target: "_blank"
+      - name: "Microsoft Project"
+        logo: "assets/icons/Microsoft/Project/project.webp"
+        subtitle: "Simple project management tool to plan, manage, and deliver work effortlessly"
+        url: "https://project.microsoft.com/en-US/"
+        target: "_blank"
