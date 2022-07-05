@@ -173,3 +173,8 @@ services:
         subtitle: "To Do gives you focus, from work to play"
         url: "https://to-do.office.com/tasks/today"
         target: "_blank"
+      - name: "Microsoft Visio"
+        logo: "assets/icons/Office/Visio/visio.webp"
+        subtitle: "Visualize data-connected business process flows"
+        url: "https://www.office.com/launch/visio?auth=2"
+        target: "_blank"
