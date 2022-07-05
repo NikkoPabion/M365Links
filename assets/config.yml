@@ -163,3 +163,8 @@ services:
         subtitle: "Microsoft Stream—the video service in Microsoft 365"
         url: "https://web.microsoftstream.com/"
         target: "_blank"
+      - name: "Microsoft Sway"
+        logo: "assets/icons/Office/Sway/sway.webp"
+        subtitle: "Easy-to-use digital storytelling app"
+        url: "https://www.office.com/launch/sway?auth=2"
+        target: "_blank"
