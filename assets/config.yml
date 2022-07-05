@@ -158,3 +158,8 @@ services:
         subtitle: "Simple project management tool to plan, manage, and deliver work effortlessly"
         url: "https://project.microsoft.com/en-US/"
         target: "_blank"
+      - name: "Microsoft Stream"
+        logo: "assets/icons/Microsoft/Stream/stream.webp"
+        subtitle: "Microsoft Stream—the video service in Microsoft 365"
+        url: "https://web.microsoftstream.com/"
+        target: "_blank"
