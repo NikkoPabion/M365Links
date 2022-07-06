@@ -178,3 +178,8 @@ services:
         subtitle: "Visualize data-connected business process flows"
         url: "https://www.office.com/launch/visio?auth=2"
         target: "_blank"
+      - name: "Viva insights"
+        logo: "assets/icons/Microsoft/Viva/viva_insights.webp"
+        subtitle: "The employee experience platform designed to help people connect, focus, learn, and thrive at work"
+        url: "https://insights.viva.office.com/"
+        target: "_blank"
