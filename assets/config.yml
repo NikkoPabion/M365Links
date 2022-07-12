@@ -188,3 +188,8 @@ services:
         subtitle: "The collaborative digital canvas in Microsoft 365"
         url: "https://whiteboard.office.com/"
         target: "_blank"
+      - name: "Microsoft Word"
+        logo: "assets/icons/Office/Word/word.webp"
+        subtitle: "Document collaboration and editing tools"
+        url: "https://www.office.com/launch/word?auth=2"
+        target: "_blank"
