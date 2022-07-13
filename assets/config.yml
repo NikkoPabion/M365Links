@@ -51,6 +51,10 @@ links:
     icon: "fas fa-home"
     url: "#"
 
+  - name: "Admin"
+    icon: "fas fa-home"
+    url: "#admin"
+
   - name: "Contribute"
     icon: "fab fa-github"
     url: "https://github.com/npab19/M365Links"

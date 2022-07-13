@@ -1,0 +1,14 @@
+subtitle: "this is another dashboard page"
+message: ~
+
+
+services:
+  - name: "Admin Centers"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Office 365 Admin Center"
+        logo: "assets/icons/Microsoft/Office365/admincenter.png"
+        subtitle: "Administrative launching pad"
+        # tag: "app"
+        url: "https://admin.microsoft.com"
+        target: "_blank"
