@@ -93,7 +93,7 @@ Distributed under Unlicensed License. See `UNLICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@NPabion](https://twitter.com/NPabion) - npab19@gmail.com
+Nikko Pabion - [@NPabion](https://twitter.com/NPabion) - npab19@gmail.com
 
 Project Link: [https://github.com/npab19/M365Links](https://github.com/npab19/M365Links)
 
