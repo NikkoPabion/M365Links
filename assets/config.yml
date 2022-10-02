@@ -75,7 +75,7 @@ services:
       - name: "My Account"
         logo: "assets/icons/Microsoft/AccountIcon2.webp"
         subtitle: "My Account"
-        url: "https://portal.office.com"
+        url: "https://myaccount.microsoft.com/"
         target: "_blank"
       - name: "Access Panel"
         icon: "fas fa-bars"
