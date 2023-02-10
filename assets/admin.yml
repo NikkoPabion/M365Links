@@ -70,7 +70,7 @@ services:
         logo: "assets/icons/Microsoft/Office365/Exchange3.png"
         subtitle: "Exchange Admin Center"
         # tag: "app"
-        url: "https://outlook.office365.com/ecp/?rfr=Admin_o365"
+        url: "https://admin.exchange.microsoft.com/"
         target: "_blank"
       - name: "SharePoint Admin Center"
         logo: "assets/icons/Microsoft/Sharepoint/Sharepoint.jpg"
