@@ -97,7 +97,7 @@ services:
         url: "https://admin.teams.microsoft.com/"
         target: "_blank"
       - name: "Universal Print"
-        logo: "assets/icons/Microsoft/Universal Print/Universalprint.png"
+        logo: "assets/icons/Microsoft/UniversalPrint/Universalprint.png"
         subtitle: "serverless print management solution built with Zero Trust security in mind"
         # tag: "app"
         url: "https://portal.azure.com/#blade/Universal_Print/MainMenuBlade/Overview"
