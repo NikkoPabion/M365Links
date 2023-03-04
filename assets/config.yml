@@ -169,7 +169,7 @@ services:
         target: "_blank"
       - name: "Microsoft Stream"
         logo: "assets/icons/Homepage/Apps/stream.webp"
-        subtitle: "Microsoft Stream—the video service in Microsoft 365"
+        subtitle: "Video service in Microsoft 365"
         url: "https://web.microsoftstream.com/"
         target: "_blank"
       - name: "Microsoft Sway"
