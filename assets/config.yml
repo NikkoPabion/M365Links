@@ -73,7 +73,7 @@ services:
         url: "https://portal.office.com"
         target: "_blank"
       - name: "My Apps"
-        icon: "fas fa-solid fa-grip-vertical"
+        icon: "fas fa-solid fa-grip"
         subtitle: "Page for all SSO apps"
         url: "https://myapps.microsoft.com/"
         target: "_blank"
