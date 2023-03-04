@@ -126,7 +126,7 @@ services:
         logo: "assets/icons/Admin/Security_Compliance/Conditional-Access.webp"
         subtitle: "If-then statements for identity"
         # tag: "app"
-        url: "https://endpoint.microsoft.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies"
+        url: "aka.ms/ad/ca"
         target: "_blank"
       - name: "Microsoft 365 secure score"
         logo: "assets/icons/Admin/Security_Compliance/Secure_Score.webp"
