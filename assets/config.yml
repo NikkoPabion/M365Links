@@ -55,6 +55,10 @@ links:
     icon: "fas fa-home"
     url: "#admin"
 
+  - name: "Exam"
+    icon: "fas fa-user-graduate"
+    url: "#exam"
+
   - name: "Contribute"
     icon: "fab fa-github"
     url: "https://github.com/npab19/M365Links"

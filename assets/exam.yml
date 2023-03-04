@@ -1,0 +1,26 @@
+subtitle: "this is another dashboard page"
+message: ~
+
+
+services:
+  - name: "MS-100: Microsoft 365 Identity and Services"
+    icon: "fas fa-cloud"
+    items:
+      - name: "MS-100 Exam Page"
+        icon: "fas fa-scroll"
+        subtitle: "Exam MS-100: Microsoft 365 Identity and Services"
+        # tag: "app"
+        url: "https://docs.microsoft.com/en-us/learn/certifications/exams/ms-100"
+        target: "_blank"
+      - name: "MS-100 Exam Skills Outline"
+        icon: "fas fa-scroll"
+        subtitle: "Skills needed to pass"
+        # tag: "app"
+        url: "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VJVE"
+        target: "_blank"
+      - name: "Microsoft Learning Github"
+        icon: "fas fa-brands fa-github"
+        subtitle: "Github page for the MS-100"
+        # tag: "app"
+        url: "https://github.com/MicrosoftLearning/MS-100T00-Microsoft-365-Identity-and-Services"
+        target: "_blank"
